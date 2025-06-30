@@ -25,8 +25,8 @@ apply and also consider adding unit testing
 
 
 
-#Clone & Run
-git clone https://github.com/Rezekiel/CustomerOnboardingApi.git
+Clone & Run
+git clone https://github.com/Rezekiel/CustomerOnboardingApi.giT
 cd CustomerOnboardingApi
 dotnet restore
 dotnet ef database update
@@ -36,11 +36,11 @@ https://localhost:5108/swagger
 
 ###############################################################################################
 
-## GET /api/bank/list
+# GET /api/bank/list
 - Returns bank list fetched live from Wema's API
 
   
-## POST /api/customer/onboard
+# POST /api/customer/onboard
 {
   "email": "john@example.com",
   "phoneNumber": "3126783678",
@@ -52,7 +52,7 @@ https://localhost:5108/swagger
  - Returns OTP message to simulate SMS.
  - Will reject if LGA doesn't belong to the state.
 
- ## POST /api/customer/verify-otp
+ # POST /api/customer/verify-otp
 
 {
   "phoneNumber": "3126783678",
@@ -60,11 +60,11 @@ https://localhost:5108/swagger
 }
 - Verifies OTP and completes onboarding
 
-## GET /api/customer/all
+# GET /api/customer/all
 - Returns all onboarded and verified customers
 
 
-### LGA-State Validation
+# LGA-State Validation
 - Implemented in Utils/StateLgaValidator.cs with a dictionary map:
 
  {
