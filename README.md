@@ -26,12 +26,12 @@ apply and also consider adding unit testing
 
 
 # Clone & Run
-git clone https://github.com/Rezekiel/CustomerOnboardingApi.git
-cd CustomerOnboardingApi
-dotnet restore
-dotnet ef database update
-dotnet run
-https://localhost:5108/swagger
+- git clone https://github.com/Rezekiel/CustomerOnboardingApi.git
+- cd CustomerOnboardingApi
+- dotnet restore
+- dotnet ef database update
+- dotnet run
+- https://localhost:5108/swagger
 
 
 ###############################################################################################
