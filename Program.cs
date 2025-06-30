@@ -23,7 +23,7 @@ builder.Services.AddSingleton<OtpService>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Register HTTP client for external APIs (e.g., bank list)
+// Register HTTP client for external APIs ( bank list)
 builder.Services.AddHttpClient();
 
 var app = builder.Build();

@@ -68,3 +68,4 @@ C:\Users\raymo\Documents\api_server_test\CustomerOnboardingApi\obj\Debug\net8.0\
 C:\Users\raymo\Documents\api_server_test\CustomerOnboardingApi\obj\Debug\net8.0\CustomerOnboardingApi.pdb
 C:\Users\raymo\Documents\api_server_test\CustomerOnboardingApi\obj\Debug\net8.0\CustomerOnboardingApi.genruntimeconfig.cache
 C:\Users\raymo\Documents\api_server_test\CustomerOnboardingApi\obj\Debug\net8.0\ref\CustomerOnboardingApi.dll
+C:\Users\raymo\Documents\api_server_test\CustomerOnboardingApi\obj\Debug\net8.0\CustomerOnboardingApi.sourcelink.json
